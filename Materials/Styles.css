@@ -1,0 +1,19 @@
+footer{
+background-color:#19554b;
+color: white;
+align-self: flex-start;
+width:100%;
+height: 50px;
+text-align: center;
+
+}
+
+.lolo{
+    background-color:#19554b;
+    color: red;
+    align-self: flex-start;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    
+    }

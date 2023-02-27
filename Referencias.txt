@@ -1,7 +1,12 @@
 REFERENCIAS:
 
+https://www.flaticon.es/packs/interface
+
+<a href="https://www.flaticon.es/iconos-gratis/brujula" title="brújula iconos">Brújula iconos creados por Chanut - Flaticon</a>
 
 
 SIDEBAR:
 
 https://getbootstrap.com/docs/5.0/examples/sidebars/#
+
+https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb
