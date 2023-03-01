@@ -32,3 +32,22 @@ text-align: center;
         width: 100px;
         height: 100px;
       }
+
+.ifNav{
+width:100% !important;
+
+
+height: 70px;
+
+
+background-color:#69a694!important;
+
+} 
+
+.ifFut{
+  width:100% !important;
+
+  height: 70px;
+
+  background: #19554b!important;
+}
