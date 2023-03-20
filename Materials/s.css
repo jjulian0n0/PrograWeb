@@ -1,0 +1,24 @@
+.lolo{
+    background-color:#19554b;
+    color: red;
+    align-self: flex-start;
+    width:100%;
+    height: 50px;
+    text-align: center;
+    
+};
+
+    .box {
+        display: flex;
+        align-self: flex-start;
+        justify-content: center;
+
+          width: 200px;
+  margin: 10%;
+  padding: 10%;
+};
+      
+.box div {
+        width: 100px;
+        height: 100px;
+};

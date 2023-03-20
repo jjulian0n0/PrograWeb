@@ -10,3 +10,6 @@ SIDEBAR:
 https://getbootstrap.com/docs/5.0/examples/sidebars/#
 
 https://dev.to/codeply/bootstrap-5-sidebar-examples-38pb
+
+FOOTER:
+https://es.stackoverflow.com/questions/10757/posicionar-footer-siempre-pegado-al-pie-de-pagina
