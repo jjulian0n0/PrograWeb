@@ -5,6 +5,11 @@
 
 <link rel="stylesheet" href="Materials/Styles.css">
 
+<!--jquery y java , son las validaciones-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="Validaciones.js"></script>
+
+
 </head>
 
 <body style="background-color: #69a694">
@@ -128,16 +133,16 @@
 
               <div class="col-4">
                 <label for="exampleFormControlInput1" class="form-label">Nombre de usuario:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre de usuario">
-
+                <input type="email" class="form-control" id="Usuario" name ="Usuario" placeholder="Nombre de usuario">
+                 <div class="Error"></div>
                 <label for="exampleFormControlInput1" class="form-label">Nombre(s):</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-
+                <input type="email" class="form-control" id="Nombre" name="Nombre" placeholder="Nombre">
+                <div class="Error"></div>
                    <label for="exampleFormControlInput1" class="form-label">Apellidos: </label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellidos">
-                
-                <label for="exampleFormControlInput1" class="form-label"><br>Fecha de nacimiento: </label>
-
+                <input type="email" class="form-control" id="Apellidos" name="Apellidos" placeholder="Apellidos">
+                <div class="Error"></div>
+                <label for="exampleFormControlInput1" id = "Fecha" name ="Fecha"  class="form-label"><br>Fecha de nacimiento: </label>
+                 
             <input type = "date">
 
 
@@ -147,17 +152,17 @@
 <div class="col-4">
 
     <label for="exampleFormControlInput1" class="form-label">Correo:</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="abc@correo.com">
-
+    <input type="email" class="form-control" id="correo" name="correo" placeholder="abc@correo.com">
+    <div class="Error"></div>
     <label for="exampleFormControlInput1" class="form-label">Contraseña:</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="******">
-
+    <input type="email" class="form-control" id="Contraseña" name="Contraseña" placeholder="******">
+    <div class="Error"></div>
        <label for="exampleFormControlInput1" class="form-label">Repetir contraseña: </label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="******">
-
+    <input type="email" class="form-control" id="RContraseña" name="RContraseña" placeholder="******"> 
+    
 
     <form class="d-flex" role="search">
-        <button class="btn btn-outline-success" type="submit">Crear</button>
+        <button onclick="agregar()" class="btn btn-outline-success" type="submit">Crear</button>
       </form>
 
                 <!--input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"-->
