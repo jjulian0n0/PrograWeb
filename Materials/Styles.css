@@ -35,9 +35,19 @@ text-align: center;
 };
 
 
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+iframe {
+  width: 100%;
+}
+
 .ifNav{
 width:100% !important;
-position: absolute;
+position: absolute !important;
 height: 50px;
 
 
@@ -50,15 +60,25 @@ background-color:#69a694!important;
 
   width:100% !important;
 
-  height: 50px;
+  height: 50px !important;
   
-  position: absolute;
-  bottom: 0;
+  position: absolute !important;
+  bottom: 0 !important;
 
   background: #19554b !important;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+.contImg {
+width: 75vw;
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+
+}
+
+img {
+width: 100%;
+border-radius: 15pX;
+
+
 }
